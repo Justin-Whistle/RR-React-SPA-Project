@@ -2,12 +2,9 @@ import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom';
 import Home from './home.js';
 import About from './about.js';
 import GitHub from './github';
-// import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
-
-
-// import './App.css'
+import '../App.css';
 
 
 const TopBar = () => {

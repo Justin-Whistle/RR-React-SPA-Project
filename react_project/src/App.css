@@ -1,5 +1,13 @@
 .App {
+  background-color: rgb(221, 228, 230);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  justify-content: center;
 }
 
 .App-header {
@@ -13,30 +21,24 @@
   color: white;
 }
 
-.github h1 {
-  font-size: 5vh;
-  font-weight: bold;
-  color: rgb(212, 120, 120);
-}
-.aboutpage {
-  width: 75%;
-  margin: 0 auto;
-  margin-top: 25px;
+.github {
   font-size: 1.3vw;
   font-weight: bold;
   color: rgb(241, 105, 105);
 }
 
-/* html {
-  background: url('../public/lakeOzarksDock.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  justify-content: center;
+.about {
+  font-size: 1.3vw;
+  font-weight: bold;
+  color: rgb(241, 105, 105);
+}
+
+.homepage {
+  font-size: 1.3vw;
+  font-weight: bold;
   align-content: center;
-  display: flex;
-} */
+  color: rgb(241, 105, 105);
+}
 
 .navbar {
   position: relative;
