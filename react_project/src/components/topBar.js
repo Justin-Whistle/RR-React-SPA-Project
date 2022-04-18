@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom';
 import Home from './home.js';
 import About from './about.js';
-import GitHub from './github';
+import Links from './links';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import '../App.css';
@@ -24,7 +24,7 @@ const TopBar = () => {
                     </Nav.Item>
                     <Nav.Item >
                         <Nav.Link eventKey={"github"}> 
-                            <Link to="/github">Github</Link> 
+                            <Link to="/links">Links</Link> 
                         </Nav.Link>
                     </Nav.Item>
                 </Nav>
@@ -33,7 +33,7 @@ const TopBar = () => {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
-                    <Route path="/github" element={<GitHub />} />
+                    <Route path="/links" element={<Links />} />
                 </Routes>
             </div>
         </Router>
